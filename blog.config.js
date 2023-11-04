@@ -108,7 +108,7 @@ const BLOG = {
 
   // 代码主题 @see https://github.com/PrismJS/prism-themes
   PRISM_THEME_PREFIX_PATH: process.env.NEXT_PUBLIC_PRISM_THEME_PREFIX_PATH || 'https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-okaidia.css', // 代码块默认主题
-  PRISM_THEME_SWITCH: process.env.NEXT_PUBLIC_PRISM_THEME_SWITCH || true, // 是否开启浅色/深色模式代码主题切换； 开启后将显示以下两个主题
+  PRISM_THEME_SWITCH: process.env.NEXT_PUBLIC_PRISM_THEME_SWITCH || false, // 是否开启浅色/深色模式代码主题切换； 开启后将显示以下两个主题
   PRISM_THEME_LIGHT_PATH: process.env.NEXT_PUBLIC_PRISM_THEME_LIGHT_PATH || 'https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-solarizedlight.css', // 浅色模式主题
   PRISM_THEME_DARK_PATH: process.env.NEXT_PUBLIC_PRISM_THEME_DARK_PATH || 'https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-dark.css', // 深色模式主题
 
@@ -125,7 +125,7 @@ const BLOG = {
   QR_CODE_CDN: process.env.NEXT_PUBLIC_QR_CODE_CDN || 'https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js',
 
   BACKGROUND_LIGHT: '#eeeeee', // use hex value, don't forget '#' e.g #fffefc
-  BACKGROUND_DARK: '#000000', // use hex value, don't forget '#'
+  BACKGROUND_DARK: '#666666', // use hex value, don't forget '#'
   SUB_PATH: '', // leave this empty unless you want to deploy in a folder
 
   POST_SHARE_BAR_ENABLE: process.env.NEXT_PUBLIC_POST_SHARE_BAR || 'true', // 文章分享功能 ，将在底部显示一个分享条
@@ -172,9 +172,9 @@ const BLOG = {
   // 漂浮线段特效
   NEST: process.env.NEXT_PUBLIC_NEST || false, // 开关
   // 动态彩带特效
-  FLUTTERINGRIBBON: process.env.NEXT_PUBLIC_FLUTTERINGRIBBON || true, // 开关
+  FLUTTERINGRIBBON: process.env.NEXT_PUBLIC_FLUTTERINGRIBBON || false, // 开关
   // 静态彩带特效
-  RIBBON: process.env.NEXT_PUBLIC_RIBBON || false, // 开关
+  RIBBON: process.env.NEXT_PUBLIC_RIBBON || true, // 开关
   // 星空雨特效 黑夜模式才会生效
   STARRY_SKY: process.env.NEXT_PUBLIC_STARRY_SKY || false, // 开关
 
